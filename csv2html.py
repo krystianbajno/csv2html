@@ -150,11 +150,9 @@ def create_enhanced_html_template(df, table_id="data-table", title="Data Table")
             background: var(--glass-bg);
             backdrop-filter: blur(20px);
             border: 1px solid var(--glass-border);
-            border-radius: 24px;
             box-shadow: var(--glass-shadow);
-            margin: 2rem auto;
+            margin: 2rem;
             padding: 2.5rem;
-            max-width: 1400px;
             position: relative;
         }}
         
@@ -170,7 +168,6 @@ def create_enhanced_html_template(df, table_id="data-table", title="Data Table")
             right: 0;
             background: var(--bg-secondary);
             border: 1px solid var(--border-light);
-            border-radius: 12px;
             padding: 0.5rem;
             cursor: pointer;
             transition: all 0.3s ease;
@@ -196,7 +193,6 @@ def create_enhanced_html_template(df, table_id="data-table", title="Data Table")
             color: var(--text-secondary);
             font-size: 1.125rem;
             font-weight: 400;
-            max-width: 600px;
             margin: 0 auto 2rem;
         }}
         
@@ -211,7 +207,6 @@ def create_enhanced_html_template(df, table_id="data-table", title="Data Table")
         .stats-card {{
             background: var(--bg-secondary);
             border: 1px solid var(--border-light);
-            border-radius: 16px;
             padding: 2rem;
             text-align: center;
             min-width: 200px;
@@ -243,7 +238,6 @@ def create_enhanced_html_template(df, table_id="data-table", title="Data Table")
         .controls-section {{
             background: var(--bg-secondary);
             border: 1px solid var(--border-light);
-            border-radius: 20px;
             padding: 2rem;
             margin-bottom: 2rem;
             box-shadow: var(--shadow-md);
@@ -265,7 +259,6 @@ def create_enhanced_html_template(df, table_id="data-table", title="Data Table")
         .search-input, .filter-select {{
             background: var(--bg-primary);
             border: 1px solid var(--border-light);
-            border-radius: 8px;
             padding: 0.875rem 1rem;
             font-size: 0.95rem;
             color: var(--text-primary);
@@ -286,7 +279,6 @@ def create_enhanced_html_template(df, table_id="data-table", title="Data Table")
             border: none;
             color: var(--text-inverse);
             padding: 0.875rem 2rem;
-            border-radius: 12px;
             font-weight: 600;
             font-size: 0.95rem;
             text-transform: uppercase;
@@ -324,7 +316,6 @@ def create_enhanced_html_template(df, table_id="data-table", title="Data Table")
         .table-container {{
             background: var(--bg-primary);
             border: 1px solid var(--border-light);
-            border-radius: 20px;
             overflow: hidden;
             box-shadow: var(--shadow-lg);
         }}
@@ -476,7 +467,6 @@ def create_enhanced_html_template(df, table_id="data-table", title="Data Table")
         .footer {{
             background: var(--bg-secondary);
             border-top: 1px solid var(--border-light);
-            border-radius: 16px;
             padding: 2rem;
             margin-top: 3rem;
             text-align: center;
@@ -491,7 +481,6 @@ def create_enhanced_html_template(df, table_id="data-table", title="Data Table")
             align-items: center;
             gap: 0.5rem;
             padding: 0.5rem 1rem;
-            border-radius: 8px;
             margin: 0 0.5rem;
         }}
         
